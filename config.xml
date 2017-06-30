@@ -1,0 +1,3 @@
+ <plugin name="cordova-plugin-whitelist" source="npm" />
+ <allow-navigation href="https://oneidentity.me/" />
+ 
