@@ -6,4 +6,5 @@
     <allow-navigation href="https://oneidentity.me/*" />
     <access origin="https://oneidentity.me" />
     <access origin="https://app.hydrocloud.net" />
+    <plugin name="cordova-plugin-file" source="npm" />
 </widget>
