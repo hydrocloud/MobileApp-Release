@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato-Light.ttf)
+}
+
 body {
     background-color: #F7F7F7;
     user-select: none;
@@ -8,12 +13,30 @@ h3 {
     color: #3F51B5;
 }
 
+#login-container {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 #login-container > iframe {
     border: none;
     width: 100%;
-    height: 512px;
+    height: 100%;
     box-shadow: 0 0 10px rgba(63, 81, 181, 0.3);
     -webkit-box-shadow: 0 0 10px rgba(63, 81, 181, 0.3);
+}
+
+#main-drawer {
+    border: none;
 }
 
 #main-content {
@@ -43,4 +66,12 @@ h3 {
     transition: 0.5s;
     opacity: 0;
     visibility: hidden; 
+}
+
+img {
+    width: 100%;
+}
+
+#chat-panel {
+    height: 100%;
 }
